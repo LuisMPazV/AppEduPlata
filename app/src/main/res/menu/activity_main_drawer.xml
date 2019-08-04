@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_virtual_assist"
+            android:icon="@drawable/vitual_asistant"
+            android:title="@string/virtual_asistant" />
+        <item
+            android:id="@+id/nav_simulation"
+            android:icon="@drawable/simulation_24dp"
+            android:title="@string/simulation" />
+        <item
+            android:id="@+id/datosPrincipales"
+            android:icon="@drawable/stats"
+            android:title="@string/simulation" />
+
+    </group>
+
+
+</menu>
